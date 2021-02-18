@@ -4,7 +4,7 @@ const path=require('path')
 const port=process.env.PORT || 5000
 
 APP.use(EXPRESS.static(path.join(__dirname,'build')))
-APP.get('/*',(req,res)=>{
+APP.get('/',(req,res)=>{
     res.sendFile(path.join(__dirname,'build','index.html'))
     
 })
