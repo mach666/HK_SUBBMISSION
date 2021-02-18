@@ -1,0 +1,17 @@
+{
+  "name": "hk_hosting",
+  "version": "1.0.0",
+  "description": "CODE BY PRINCE YADAV",
+  "main": "API.js",
+  "scripts": {
+    "start": "node API.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  } ,"engines": {
+    "node": "12.18.3",
+    "npm": "6.14.6"
+  }
+}
